@@ -167,7 +167,7 @@ algorithms = {
     "Merge Sort": merge_sort,
     "Heap Sort": heap_sort,
     "Quick Sort": quick_sort,
-    "Counting Sort": counting_sort
+    "Counting Sort": counting_sort,
     "Radix Sort": radix_sort
 }
 
@@ -180,7 +180,7 @@ for name, func in algorithms.items():
     times = []
     for size in sizes:
         # Safety limit for O(n^2) algorithms to prevent hours of hanging
-        if name in ["Bubble Sort", "Insertion Sort", "Selection Sort"]:
+        if size >= 1000000 and name in ["Bubble Sort", "Insertion Sort", "Selection Sort"]:
             times.append("Skipped (Too Slow)")
             continue
 
