@@ -171,7 +171,7 @@ algorithms = {
     "Radix Sort": radix_sort
 }
 
-sizes = [100, 1000, 10000, 50000, 100000, 500000, 1000000, 1000000000]#, 10000000000]
+sizes = [100, 1000, 10000, 50000, 100000, 500000, 1000000]#, 1000000000, 10000000000] # ONLY FOR COUNTING SORT
 
 print(f"{'Algorithm':<18} | " + " | ".join([f"N={s:<7}" for s in sizes]))
 print("-" * 75)
