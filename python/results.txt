@@ -1,0 +1,11 @@
+Algorithm          | N=100     | N=1000    | N=10000   | N=50000   | N=100000  | N=500000  | N=1000000 | N=10000000 | N=100000000 | N=1000000000000
+---------------------------------------------------------------------------
+Bubble Sort        | 0.00030s  | 0.04878s  | 6.26221s  | 166.03788s | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow)
+Insertion Sort     | 0.00017s  | 0.02208s  | 2.60321s  | 65.86089s | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow)
+Selection Sort     | 0.00020s  | 0.02557s  | 2.21281s  | 64.79264s | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow) | Skipped (Too Slow)
+Shell Sort         | 0.00038s  | 0.00337s  | 0.08221s  | 0.29121s  | 0.53444s  | 4.41763s  | 12.78043s | 221.60788s | Skipped (Too Slow) | Skipped (Too Slow)
+Merge Sort         | 0.00022s  | 0.00356s  | 0.02505s  | 0.18097s  | 0.37257s  | 2.18266s  | 5.72245s  | 68.01271s  | Skipped (Too Slow) | Skipped (Too Slow)
+Heap Sort          | 0.00049s  | 0.00213s  | 0.03120s  | 0.31573s  | 0.54162s  | 3.52488s  | 10.96524s | 140.68235s | Skipped (Too Slow) | Skipped (Too Slow)
+Quick Sort         | 0.00026s  | 0.00237s  | 0.01582s  | 0.10949s  | 0.24403s  | 2.17661s  | 5.34455s  | 81.18449s  | Skipped (Too Slow) | Skipped (Too Slow)
+Counting Sort      | 0.00011s  | 0.00035s  | 0.00209s  | 0.01161s  | 0.02602s  | 0.16713s  | 0.34694s  | 3.74923s   | 44.73259s | Skipped (Too Slow)
+Radix Sort         | 0.00019s  | 0.00216s  | 0.02231s  | 0.12394s  | 0.30012s  | 2.03989s  | 4.19481s  | 73.09631s  | Skipped (Too Slow) | Skipped (Too Slow)
