@@ -171,7 +171,7 @@ algorithms = {
     "Radix Sort": radix_sort
 }
 
-sizes = [100, 1000, 10000, 100000, 1000000, 1000000000]#, 10000000000]
+sizes = [100, 1000, 10000, 50000, 100000, 500000, 1000000, 1000000000]#, 10000000000]
 
 print(f"{'Algorithm':<18} | " + " | ".join([f"N={s:<7}" for s in sizes]))
 print("-" * 75)
@@ -180,7 +180,7 @@ for name, func in algorithms.items():
     times = []
     for size in sizes:
         # Safety limit for O(n^2) algorithms to prevent hours of hanging
-        if size >= 1000000 and name in ["Bubble Sort", "Insertion Sort", "Selection Sort"]:
+        if size >= 100000 and name in ["Bubble Sort", "Insertion Sort", "Selection Sort"]:
             times.append("Skipped (Too Slow)")
             continue
 
